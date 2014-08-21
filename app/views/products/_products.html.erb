@@ -1,0 +1,13 @@
+<table>
+	<thead>
+		<tr>
+			<th colspan="2">Products List</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="product in productsList">
+			<td>{{$index + 1}}</td>
+			<td>{{product.name}}</td>			
+		</tr>
+	</tbody>
+</table>
